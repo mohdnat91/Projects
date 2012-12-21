@@ -1,21 +1,20 @@
 #include <stdbool.h> //bool
 
-typedef char* string;
-
 typedef struct tuple{
-	string key;
-	string value;
-};
+	char *key;
+	char *value;
+} tuple;
 
 typedef struct properties{
-	const string filepath;
-
-	const char delimiter;
-	const char comment;
+	const char *filepath;
 
 	tuple *entries;
 	int entry_count;
 
 	bool error;
-	string error_msg;
-};
+	char *error_msg;
+} properties;
+
+properties *properties_new(const char *filepath, char delimiter, char comment);
+char *properties_get(properties *p, const char *key);
+void properties_free(properties *p);

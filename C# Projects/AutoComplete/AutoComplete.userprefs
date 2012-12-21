@@ -1,0 +1,14 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="AutoComplete/Terminal.cs">
+    <Files>
+      <File FileName="AutoComplete/Main.cs" Line="21" Column="46" />
+      <File FileName="AutoComplete/Command.cs" Line="17" Column="25" />
+      <File FileName="AutoComplete/Terminal.cs" Line="13" Column="56" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

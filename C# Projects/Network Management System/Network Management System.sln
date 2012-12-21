@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IPv4", "IPv4\IPv4.csproj", "{877DC207-53C4-4D53-B5F8-F77AE18CE011}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{C26D8E99-81EF-4F9B-A584-17077DC1F695}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Terminal", "Terminal\Terminal.csproj", "{5DF24131-1BB6-4846-9E4E-3F6CE5DD198D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modules", "ReservationModule\Modules.csproj", "{E033BA3F-DFBC-457A-BC85-A6B66708BE5C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5DF24131-1BB6-4846-9E4E-3F6CE5DD198D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DF24131-1BB6-4846-9E4E-3F6CE5DD198D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DF24131-1BB6-4846-9E4E-3F6CE5DD198D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DF24131-1BB6-4846-9E4E-3F6CE5DD198D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{877DC207-53C4-4D53-B5F8-F77AE18CE011}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{877DC207-53C4-4D53-B5F8-F77AE18CE011}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{877DC207-53C4-4D53-B5F8-F77AE18CE011}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{877DC207-53C4-4D53-B5F8-F77AE18CE011}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C26D8E99-81EF-4F9B-A584-17077DC1F695}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C26D8E99-81EF-4F9B-A584-17077DC1F695}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C26D8E99-81EF-4F9B-A584-17077DC1F695}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C26D8E99-81EF-4F9B-A584-17077DC1F695}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E033BA3F-DFBC-457A-BC85-A6B66708BE5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E033BA3F-DFBC-457A-BC85-A6B66708BE5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E033BA3F-DFBC-457A-BC85-A6B66708BE5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E033BA3F-DFBC-457A-BC85-A6B66708BE5C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = IPv4\IPv4.csproj
+	EndGlobalSection
+EndGlobal
